@@ -2,7 +2,7 @@
     <div class="Sign_In">
         <FormText tag="h1" text="Sign in"/>
         <h4>Not signed up ?</h4>    
-         <NuxtLink to="/Sign_up">Register    </NuxtLink>
+         <NuxtLink to="/Sign_up">Refgister    </NuxtLink>
         <h3>Email</h3>
         <form>
           <input type="email" name="email" placeholder="johndoe@mail.com">
