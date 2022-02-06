@@ -19,12 +19,14 @@
 <script>
   import FormButton from '@/components/FormButton.vue'
   import FormText from '@/components/FormText.vue'
+  import FormInput from '@/components/FormInput.vue'
 
   export default {
-    name: 'Signin',
+    name: 'input',
     components: {
       FormButton,
-      FormText
+      FormText,
+      FormInput
     },
   }
 
