@@ -36,7 +36,7 @@ Color
   --color-secondary-black: #4A4A68;
   --color-secondary-grey: #C9CAE1;
   --color-secondary-white: #FFFFFF;
-  --color-selantic-red: #E20E00;
+  --color-semantic-red: #E20E00;
   /****
 Font
  ****/
@@ -51,7 +51,7 @@ Font
   --text-color-secondary-black: var(--color-secondary-black);
   --text-color-secondary-grey: var(--color-secondary-grey);
   --text-color-secondary-white: var(--color-secondary-white);
-  --text-color-selantic-red: var(--color-selantic-red);
+  --text-color-semantic-red: var(--color-semantic-red);
 
   /****
 Button
@@ -62,6 +62,11 @@ Button
 Transition
  ****/
 --transition_button:0.3s;
+
+  /****
+Input
+ ****/
+ --input-width: 288px;
 
 }
  

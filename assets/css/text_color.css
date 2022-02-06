@@ -19,6 +19,6 @@
 .text-color--secondary-white{
     color: var(--color-secondary-white);
 } 
-.text-color--selantic-red{
-    color: var(--color-selantic-red);
+.text-color--semantic-red{
+    color: var(--color-semantic-red);
 } 
