@@ -9,7 +9,8 @@
       <FormText tag="p" text="Email" color="secondary-black" classes="bold" bottom="2" top="0"/>
       <FormInput type="email" name="email" placeholder="johndoe@mail.com"/>
       <FormText tag="p" text="Password" color="secondary-black" classes="bold" top="3" bottom="2"/>
-      <input type="password" name="email" placeholder="**********">
+      <FormInput type="password" name="password" placeholder="**********"/>
+
       <FormText tag="span" text="Forget password ?" color="secondary-black" classes="underline" top="1"/>
       <FormButton text="Sign in" type="button" look="primary" size="medium" disabled="disabled" />
     </form>
