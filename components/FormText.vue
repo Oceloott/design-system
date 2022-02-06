@@ -12,12 +12,10 @@ export default {
         tag: { type : String, default: "h1"},
         color: { type: String, default: "black"},
         classes: { type: String, default: ""},
-        top : {type: String},
-        bottom : {type: String},
-        left : {type: String},
-        right : {type: String},
-        
-        //type: { type: String },
+        top : {type : String},
+        bottom : {type : String},
+        left : {type : String},
+        right : {type : String},
     },
     computed: {
         
