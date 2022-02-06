@@ -1,0 +1,43 @@
+body{
+  font-family: var(--font_family);
+  font-weight: var(--font_weight-regular);
+  font-size: var(--base-space-4);
+}
+.bold{
+  font-weight: var(--font_weight-bold);
+}
+.underline{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: var(--font_weight-bold);
+  font-size: var(--base-space-6);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+}
+
+.primary {
+  background-color: red;
+}
+
+.secondary {
+  background-color: green;
+}
