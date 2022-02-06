@@ -22,6 +22,8 @@ export default {
     // un fichier CSS dans le projet
     '~/assets/css/var.css',
     '~/assets/css/main.css',
+    '~/assets/css/text_color.css',
+
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

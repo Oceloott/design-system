@@ -1,0 +1,24 @@
+.text-color--primary-purple{
+    color: var(--color-primary-purple);
+} 
+.text-color--primary-purple_light{
+    color: var(--color-primary-purple_light);
+} 
+.text-color--primary-purple_dark{
+    color: var(--color-primary-purple_dark);
+} 
+.text-color--primary-purple_medium{
+    color: var(--color-primary-purple_medium);
+} 
+.text-color--secondary-black{
+    color: var(--color-secondary-black);
+} 
+.text-color--secondary-grey{
+    color: var(--color-secondary-grey);
+} 
+.text-color--secondary-white{
+    color: var(--color-secondary-white);
+} 
+.text-color--selantic-red{
+    color: var(--color-selantic-red);
+} 

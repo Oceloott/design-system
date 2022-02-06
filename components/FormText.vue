@@ -1,5 +1,5 @@
 <template>
-    <component :is="tag" :class="['text', `text-color--${color}`]">
+    <component :is="tag" :class="['text', `text-color--${color}`, `${classes}` ]">
         {{text}}
     </component>
 </template>
@@ -11,8 +11,8 @@ export default {
         text: String,
         tag: { type : String, default: "h1"},
         color: { type: String, default: "black"},
+        classes: { type: String, default: ""}
         //type: { type: String },
-        //class: { type: String}
     },
     computed: {
         

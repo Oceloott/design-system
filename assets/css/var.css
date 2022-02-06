@@ -3,7 +3,7 @@
   /****
 Spacing
  ****/
-  --base-space-value: 4px;
+  --base-space-value: 8px;
   --base-space-0: calc(var(--base-space-value)*0);
   --base-space-1: calc(var(--base-space-value)*1);
   --base-space-2: calc(var(--base-space-value)*2);
@@ -16,6 +16,14 @@ Spacing
   --base-space-9: calc(var(--base-space-value)*9);
   --base-space-10: calc(var(--base-space-value)*10);
   --base-space-11: calc(var(--base-space-value)*11);
+  --base-space-12: calc(var(--base-space-value)*12);
+  --base-space-13: calc(var(--base-space-value)*13);
+  --base-space-14: calc(var(--base-space-value)*14);
+  --base-space-15: calc(var(--base-space-value)*15);
+
+
+
+
 
   /****
 Color
@@ -35,5 +43,22 @@ Font
   --font_family: "Work Sans";
   --font_weight-bold: 700;
   --font_weight-regular: 400;
+  
+  --text-color-primary-purple: var(--color-primary-purple);
+  --text-color-primary-purple_light: var(--color-primary-purple_light);
+  --text-color-primary-purple_dark: var(--color-primary-purple_dark);
+  --text-color-primary-purple_medium: var(--color-primary-purple_medium);
+  --text-color-secondary-black: var(--color-secondary-black);
+  --text-color-secondary-grey: var(--color-secondary-grey);
+  --text-color-secondary-white: var(--color-secondary-white);
+  --text-color-selantic-red: var(--color-selantic-red);
+
+  /****
+Button
+ ****/
+ --button-border_radius: 5px;
+ --button-width: 100px;
+
 
 }
+ 

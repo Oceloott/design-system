@@ -1,29 +1,34 @@
 <template>
-    <div class="Sign_In">
-        <FormText tag="h1" text="Sign in"/>
-        <h4>Not signed up ?</h4>    
-         <NuxtLink to="/Sign_up">Register    </NuxtLink>
-        <h3>Email</h3>
-        <form>
-          <input type="email" name="email" placeholder="johndoe@mail.com">
-
-          <h3>Password</h3>
-          <input type="password" name="email" placeholder="**********">
-          <span>Forget password ?</span>
-          <FormButton text="text" type="button" look="primary" size="medium" disabled="disabled"/>
-        </form>
+  <div class="flex flex-column">
+    <FormText tag="h1" text="Sign in" color="secondary-black" />
+    <div class="flex flex-row">
+      <FormText tag="p" text="Not signed up ?" color="secondary-black" />
+      <NuxtLink to="/Sign_up" class="underline text-color--secondary-black">Register</NuxtLink>
     </div>
+    <form class="flex flex-column">
+    <FormText tag="p" text="Email" color="secondary-black" classes="bold"/>
+      <input type="email" name="email" placeholder="johndoe@mail.com">
+    <FormText tag="p" text="Password" color="secondary-black" classes="bold"/>
+
+      <input type="password" name="email" placeholder="**********">
+
+      <FormText tag="span" text="Forget password ?" color="secondary-black" classes="underline" />
+
+      <FormButton text="text" type="button" look="primary" size="medium" disabled="disabled" />
+    </form>
+  </div>
 </template>
 
 <script>
-import FormButton from '@/components/FormButton.vue'
-import FormText from '@/components/FormText.vue'
+  import FormButton from '@/components/FormButton.vue'
+  import FormText from '@/components/FormText.vue'
 
-export default {
-  name: 'Signin',
-  components: {
-    FormButton,
-    FormText
-  },
-}
+  export default {
+    name: 'Signin',
+    components: {
+      FormButton,
+      FormText
+    },
+  }
+
 </script>
