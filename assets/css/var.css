@@ -43,7 +43,7 @@ Font
   --font_family: "Work Sans";
   --font_weight-bold: 700;
   --font_weight-regular: 400;
-  
+
   --text-color-primary-purple: var(--color-primary-purple);
   --text-color-primary-purple_light: var(--color-primary-purple_light);
   --text-color-primary-purple_dark: var(--color-primary-purple_dark);
@@ -58,7 +58,10 @@ Button
  ****/
  --button-border_radius: 5px;
  --button-width: 100px;
-
+   /****
+Transition
+ ****/
+--transition_button:0.3s;
 
 }
  
