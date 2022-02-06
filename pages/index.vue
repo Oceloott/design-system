@@ -7,7 +7,7 @@
     </div>
     <form class="flex flex-column">
       <FormText tag="p" text="Email" color="secondary-black" classes="bold" bottom="2" top="0"/>
-      <input type="email" name="email" placeholder="johndoe@mail.com">
+      <FormInput type="email" name="email" placeholder="johndoe@mail.com"/>
       <FormText tag="p" text="Password" color="secondary-black" classes="bold" top="3" bottom="2"/>
       <input type="password" name="email" placeholder="**********">
       <FormText tag="span" text="Forget password ?" color="secondary-black" classes="underline" top="1"/>
