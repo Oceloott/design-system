@@ -22,13 +22,15 @@ h5 {
 
 .m-button{
   width: var(--button-width);
-  height:  var(--base-space-6);
+  height: var(--base-space-6);
   border-radius: var(--button-border_radius);
   border: none;
   cursor: pointer;
   color: var(--color-secondary-white);
   margin: var(--base-space-3) auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: var(--font_weight-regular);
+  font-size: var(--base-space-2);
 }
 .m-button:disabled{
   color: var(--color-secondary-grey);
@@ -51,6 +53,9 @@ h5 {
   cursor: inherit;
 }
 
+.card{
+  margin-top: var(--base-space-15);
+}
 .flex{
   display: flex;
 }
@@ -59,6 +64,9 @@ h5 {
 }
 .flex-column{
   flex-direction: column;
+}
+.flex-center{
+  align-items: center;
 }
 
 
