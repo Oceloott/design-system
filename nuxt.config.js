@@ -23,6 +23,8 @@ export default {
     '~/assets/css/var.css',
     '~/assets/css/main.css',
     '~/assets/css/text_color.css',
+    '~/assets/css/margin.css',
+
 
   ],
 
