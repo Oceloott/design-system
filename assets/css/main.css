@@ -24,6 +24,7 @@ h5 {
 .card{
   margin-top: var(--base-space-12);
 }
+
 .flex{
   display: flex;
 }
@@ -35,4 +36,8 @@ h5 {
 }
 .flex-center{
   align-items: center;
+}
+
+form{
+  max-width: 375px;
 }

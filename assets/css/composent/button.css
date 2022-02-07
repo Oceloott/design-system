@@ -15,6 +15,7 @@
     color: var(--color-secondary-grey);
   }
   
+  /* Primary */
   .m-button--primary{
     background-color: var(--color-primary-purple);
   }

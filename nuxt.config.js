@@ -23,8 +23,8 @@ export default {
     // un fichier CSS dans le projet
     '~/assets/css/var.css',
     '~/assets/css/main.css',
-    '~/assets/css/text.css',
     '~/assets/css/margin.css',
+    '~/assets/css/composent/text.css',
     '~/assets/css/composent/button.css',
     '~/assets/css/composent/input.css',
 
